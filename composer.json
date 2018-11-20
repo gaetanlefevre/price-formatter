@@ -1,0 +1,29 @@
+{
+    "name": "johndodev/price-formatter",
+    "description": "Display / Format prices in PHP",
+    "keywords": [
+        "price",
+        "money",
+        "display",
+        "format"
+    ],
+    "authors": [
+        {
+            "name": "Jonathan Plantey",
+            "email": "jonathan.plantey@gmail.com",
+            "homepage": "http://www.jonathan-plantey.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/options-resolver": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Johndodev\\": "src/"
+        }
+    }
+}
